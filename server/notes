@@ -1,0 +1,42 @@
+
+
+//HTTPS Methods
+//Get ==> it fetches the new data 
+//Post ==> it creates the new data
+//put ==> it updates the existing files data 
+//Delete ==> it deletes the existing data
+
+//note : Your Browser works only on GET Merthods
+// Chrome, Edge, Brave, Fox, Comet
+
+//To learn All Http Methods
+
+//There is tool/platform name as POSTMAN
+// In POSTMAN you can try all http methods
+
+// My service is to fetch all the data
+// Now every service after https method
+//ex ; app.get()
+//it takes 2 parameters
+// 1st is  route in string 
+// 2nd is arrow function
+
+//so in 2nd arrow function
+// again we have 2 paramters
+// 1. req ==> getting data from user 
+// 2. res ==> sending data to user
+
+//  200 ==> OK
+//  404 ==> Not Found
+//  500 ==> Internal Server Error
+// 502 ==> Bad Gateway
+// 401 ==> Not Authenticated
+//  http://localhost:5000 ===> /
+// http:///localhost:5000/home ===> /home 
+
+// to start the backend with all services
+// the code is 
+
+// now app.listen has 2 paramters
+// 1st PORT Number
+// 2nd Server started message for developer with arrow function
